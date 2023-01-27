@@ -1,0 +1,1493 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:42:46.421Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:42:48.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:44:02.525Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:44:04.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:46:37.528Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:46:40.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:46:47.128Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:46:49.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:48:38.589Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:48:41.051Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:49:12.312Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "neeraj@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T19:49:19.407Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T19:49:19.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:50:58.780Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:51:01.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T19:59:10.324Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T19:59:12.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:11:25.822Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:11:28.398Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:12:26.084Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:12:28.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:12:33.119Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:12:35.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:13:05.355Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:13:07.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:13:20.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-26T20:13:25.402Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:13:27.753Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1485:16)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (D:\Java Script\FundoNotes\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\src\/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\Java Script\FundoNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\Java Script\FundoNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32) {"date":"Fri Jan 27 2023 01:44:00 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":353920},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19248547,"external":20768911,"heapTotal":86462464,"heapUsed":67901744,"rss":127324160},"pid":19428,"uid":null,"version":"v18.12.1"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1485:16)\n    at listenInCluster (node:net:1533:12)\n    at Server.listen (node:net:1621:7)\n    at Function.listen (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\application.js:635:24)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\src\\/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)","timestamp":"2023-01-26T20:14:00.511Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1485,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1533,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1621,"method":"listen","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:14:32.877Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:14:35.412Z"}
+error: uncaughtException: Joi is not defined
+ReferenceError: Joi is not defined
+    at validateUser (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:116:18)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:99:21)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:98:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15 {"date":"Fri Jan 27 2023 01:45:03 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":353982},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317787,"external":19835313,"heapTotal":47403008,"heapUsed":44074264,"rss":87027712},"pid":1404,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: Joi is not defined\n    at validateUser (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:116:18)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:99:21)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at login (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:98:19)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:284:15","timestamp":"2023-01-26T20:15:03.297Z","trace":[{"column":18,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"validateUser","line":116,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":99,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":19,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"login","line":98,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:16:23.830Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:16:26.318Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:17:59.020Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:18:01.625Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:19:14.991Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:19:17.367Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:19:22.740Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:19:28.343Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:19:31.211Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:19:50.046Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:19:52.469Z"}
+error: uncaughtException: Joi is not defined
+ReferenceError: Joi is not defined
+    at LoginValidator (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:116:18)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:99:21)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:98:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jan 27 2023 01:49:55 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":354275},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19549366,"external":21069023,"heapTotal":94310400,"heapUsed":61053304,"rss":133525504},"pid":12652,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: Joi is not defined\n    at LoginValidator (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:116:18)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:99:21)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at login (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:98:19)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-01-26T20:19:55.818Z","trace":[{"column":18,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"LoginValidator","line":116,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":99,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":19,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"login","line":98,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":203,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:20:32.913Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:20:35.458Z"}
+error: uncaughtException: joiPassword is not defined
+ReferenceError: joiPassword is not defined
+    at LoginValidator (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:119:15)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:100:21)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:99:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jan 27 2023 01:50:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":354318},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19536332,"external":21055989,"heapTotal":94572544,"heapUsed":60750000,"rss":133394432},"pid":12492,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: joiPassword is not defined\n    at LoginValidator (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:119:15)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:100:21)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at login (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:99:19)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-01-26T20:20:38.516Z","trace":[{"column":15,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"LoginValidator","line":119,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":100,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":19,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"login","line":99,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":203,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:24:45.288Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:24:50.433Z"}
+error: uncaughtException: joiPassword is not defined
+ReferenceError: joiPassword is not defined
+    at LoginValidator (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:120:15)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:101:21)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:100:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jan 27 2023 01:54:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":354572},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18513987,"external":20034371,"heapTotal":94531584,"heapUsed":53146696,"rss":132534272},"pid":12840,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: joiPassword is not defined\n    at LoginValidator (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:120:15)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:101:21)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at login (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:100:19)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-01-26T20:24:52.656Z","trace":[{"column":15,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"LoginValidator","line":120,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":101,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":19,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"login","line":100,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":203,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:26:56.060Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:26:58.760Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:27:28.822Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:27:31.529Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:27:35.982Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:27:38.806Z"}
+error: uncaughtException: Invalid status code: Login Succesfull
+RangeError: Invalid status code: Login Succesfull
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:162:21)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:113:6)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Jan 27 2023 01:57:39 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":354738},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18812930,"external":20332587,"heapTotal":92676096,"heapUsed":55677600,"rss":131485696},"pid":19620,"uid":null,"version":"v18.12.1"},"stack":"RangeError: Invalid status code: Login Succesfull\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.writeHead (node:_http_server:343:11)\n    at ServerResponse.writeHead (D:\\Java Script\\FundoNotes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:334:8)\n    at write_ (node:_http_outgoing:867:9)\n    at ServerResponse.end (node:_http_outgoing:977:5)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:162:21)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:113:6)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-01-26T20:27:39.440Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":393,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":343,"method":"writeHead","native":false},{"column":26,"file":"D:\\Java Script\\FundoNotes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":334,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":867,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":977,"method":"end","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":113,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:28:12.092Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:28:14.450Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:28:32.144Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:28:37.875Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:28:40.374Z"}
+error: uncaughtException: Invalid status code: Login Succesfull
+RangeError: Invalid status code: Login Succesfull
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:162:21)
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:113:6)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Jan 27 2023 01:58:43 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_INVALID_STATUS_CODE"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":354802},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18463803,"external":19984187,"heapTotal":95318016,"heapUsed":52950168,"rss":133201920},"pid":20332,"uid":null,"version":"v18.12.1"},"stack":"RangeError: Invalid status code: Login Succesfull\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.writeHead (node:_http_server:343:11)\n    at ServerResponse.writeHead (D:\\Java Script\\FundoNotes\\node_modules\\on-headers\\index.js:44:26)\n    at ServerResponse._implicitHeader (node:_http_server:334:8)\n    at write_ (node:_http_outgoing:867:9)\n    at ServerResponse.end (node:_http_outgoing:977:5)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:232:10)\n    at ServerResponse.json (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:162:21)\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:113:6)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-01-26T20:28:43.288Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":393,"method":null,"native":false},{"column":11,"file":"node:_http_server","function":"ServerResponse.writeHead","line":343,"method":"writeHead","native":false},{"column":26,"file":"D:\\Java Script\\FundoNotes\\node_modules\\on-headers\\index.js","function":"ServerResponse.writeHead","line":44,"method":"writeHead","native":false},{"column":8,"file":"node:_http_server","function":"ServerResponse._implicitHeader","line":334,"method":"_implicitHeader","native":false},{"column":9,"file":"node:_http_outgoing","function":"write_","line":867,"method":null,"native":false},{"column":5,"file":"node:_http_outgoing","function":"ServerResponse.end","line":977,"method":"end","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":232,"method":"send","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":162,"method":"send","native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":113,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:29:38.443Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:29:40.792Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:31:11.368Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:31:14.301Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:31:29.972Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:31:32.735Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:32:08.011Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:32:10.669Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:33:39.055Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:33:41.805Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:36:11.379Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:36:14.076Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:37:08.515Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:37:11.266Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:37:57.366Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:37:59.805Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:38:57.530Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:39:00.049Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:39:29.152Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:39:31.605Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:40:37.732Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:40:40.347Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:41:41.159Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:41:43.847Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:43:14.850Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:43:17.389Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T20:44:37.720Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "neera@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T20:44:54.058Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:265:14)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:136:14)
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:61:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T20:44:54.071Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:46:21.151Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:46:24.007Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (D:\Java Script\FundoNotes\src\services\/user.service.js:10:35)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (D:\Java Script\FundoNotes\src\services\/user.service.js:10:21)
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:54:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:52:21)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (D:\Java Script\FundoNotes\src\validators\/user.validator.js:15:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T20:46:37.138Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:47:09.919Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:47:12.611Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:48:23.443Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:48:25.927Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:48:59.468Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:49:01.774Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:50:14.346Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:50:16.861Z"}
+error: uncaughtException: (0 , _user3.default) is not a function
+TypeError: (0 , _user3.default) is not a function
+    at _callee6$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:103:35)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:102:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Jan 27 2023 02:20:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":356099},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18755126,"external":20274783,"heapTotal":95830016,"heapUsed":54454136,"rss":134004736},"pid":11000,"uid":null,"version":"v18.12.1"},"stack":"TypeError: (0 , _user3.default) is not a function\n    at _callee6$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:103:35)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at login (D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js:102:19)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at Route.dispatch (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:114:3)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:284:15\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at Function.handle (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:175:3)\n    at router (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:47:12)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at logger (D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js:144:5)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at trim_prefix (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:328:13)\n    at D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:286:9\n    at Function.process_params (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:346:12)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js:280:10)\n    at D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js:137:5\n    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)\n    at invokeCallback (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:231:16)\n    at done (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:220:7)\n    at IncomingMessage.onEnd (D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js:280:7)\n    at IncomingMessage.emit (node:events:513:28)\n    at IncomingMessage.emit (node:domain:489:12)\n    at endReadableNT (node:internal/streams/readable:1359:12)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2023-01-26T20:50:20.264Z","trace":[{"column":35,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"_callee6$","line":103,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":19,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/user.controller.js","function":"login","line":102,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"Route.dispatch","line":114,"method":"dispatch","native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":284,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":3,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.handle","line":175,"method":"handle","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"router","line":47,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\morgan\\index.js","function":"logger","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"trim_prefix","line":328,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":null,"line":286,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"Function.process_params","line":346,"method":"process_params","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\index.js","function":"next","line":280,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\body-parser\\lib\\read.js","function":null,"line":137,"method":null,"native":false},{"column":9,"file":"node:async_hooks","function":"AsyncResource.runInAsyncScope","line":203,"method":"runInAsyncScope","native":false},{"column":16,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"invokeCallback","line":231,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"done","line":220,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\raw-body\\index.js","function":"IncomingMessage.onEnd","line":280,"method":"onEnd","native":false},{"column":28,"file":"node:events","function":"IncomingMessage.emit","line":513,"method":"emit","native":false},{"column":12,"file":"node:domain","function":"IncomingMessage.emit","line":489,"method":"emit","native":false},{"column":12,"file":"node:internal/streams/readable","function":"endReadableNT","line":1359,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:50:32.453Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:50:35.157Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:54:57.485Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:55:00.056Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:55:10.165Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:55:12.657Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:55:17.383Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:55:22.626Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:55:26.640Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:55:28.897Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:56:34.615Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:56:37.349Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:57:07.038Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:57:09.685Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T20:57:28.318Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T20:57:30.902Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:00:32.463Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:00:35.097Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 72
+    at JSON.parse (<anonymous>)
+    at parse (D:\Java Script\FundoNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/login/log 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:01:24.033Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:03:36.688Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:03:39.439Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:03:44.193Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:03:46.495Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:08:18.109Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:08:20.722Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:10:20.367Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:10:22.898Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joiPassword is not defined
+    at LoginValidator (D:\Java Script\FundoNotes\src\validators\/user.validator.js:22:15)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:10:33.359Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:11:23.406Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:11:25.720Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'string')
+    at LoginValidator (D:\Java Script\FundoNotes\src\validators\/user.validator.js:22:27)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:11:26.266Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:13:26.407Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:13:29.112Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:13:54.132Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:13:56.559Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joiPassword is not defined
+    at LoginValidator (D:\Java Script\FundoNotes\src\validators\/user.validator.js:23:15)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:14:03.654Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:14:20.876Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:14:23.326Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:29:49.168Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:29:51.936Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashank@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:31:05.940Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:31:05.953Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:35:04.610Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:35:07.839Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:35:18.243Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:35:18.256Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:36:10.769Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:36:13.382Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:36:15.932Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:36:15.939Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:38:06.423Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:38:08.924Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:38:12.975Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:38:12.986Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:38:15.496Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:38:15.499Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:45:20.664Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:45:23.264Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:45:32.160Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:45:32.171Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: shashank606.users index: email_1 dup key: { email: "Shashandfsdfk@gmail.com" } 
+      url - /api/v1//users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-26T21:45:34.402Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (D:\Java Script\FundoNotes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:867:9)
+    at ServerResponse.end (node:_http_outgoing:977:5)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (D:\Java Script\FundoNotes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:326:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1//users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-26T21:45:34.405Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:46:59.078Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:47:04.218Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:48:13.388Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:48:15.741Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:49:01.834Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:49:04.446Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-26T21:49:10.978Z"}
+info: Connected to the database. {"timestamp":"2023-01-26T21:49:13.614Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:10:37.102Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:10:39.553Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:10:51.197Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:12:01.547Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:04.241Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:12:07.737Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:10.276Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:12.587Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:14.315Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:12:28.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:31.672Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:33.434Z"}
+error: 
+    status - 500 
+    message - ReferenceError: res is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:34.631Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:12:57.356Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:59.800Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:13:46.841Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:13:49.515Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:13:55.491Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:13:58.145Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:14:01.762Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:14:05.021Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:14:12.208Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:14:59.887Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:15:02.496Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:15:05.984Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:127:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:15:07.398Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:15:19.362Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:15:22.462Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:15:24.989Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:32:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:19:19)
+    at _callee4$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:129:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:15:26.151Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:16:38.490Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:16:46.187Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:17:13.824Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:17:16.041Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:37:51.525Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:37:54.403Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-27T12:41:14.858Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:41:17.374Z"}
