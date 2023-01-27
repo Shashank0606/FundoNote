@@ -16,22 +16,22 @@ export const newUser = async (body) => {
 };
 
 // login user
-// export const login = async (body) => {
-//   try {
-//     let user = await User.findOne({ email: body.email });
-//     if (!user)
-//       throw new error("Invalid Email");
+export const login = async (body) => {
+  try {
+    let user = await User.findOne({ email: body.email });
+    if (!user)
+      throw new error("Invalid Email");
 
-//     const validPassword = await bcrypt.compare(body.password, user.password);
-//     if (!validPassword)
-//       throw new error("Invalid Password");
-//     else
-//       return user;
-//   }
-//   catch (error) {
-//     throw new error(error)
-//   }
-// }
+    const validPassword = await bcrypt.compare(body.password, user.password);
+    if (!validPassword)
+      throw new error("Invalid Password");
+    else
+      return user;
+  }
+  catch (error) {
+    throw new error(error)
+  }
+}
 
 // //update single user
 // export const updateUser = async (_id, body) => {
