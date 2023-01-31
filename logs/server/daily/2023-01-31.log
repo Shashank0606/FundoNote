@@ -1,0 +1,265 @@
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:24:34.847Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:24:35.152Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:25:14.187Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:25:14.230Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:25:31.527Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:25:31.563Z"}
+error: 
+    status - 500 
+    message - ValidationError: "titel" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T05:26:00.663Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:26:27.348Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:26:27.378Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-31T05:27:09.207Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T05:29:41.483Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:30:29.690Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:30:29.758Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:30:36.216Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:30:36.259Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:32:38.505Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:32:38.533Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:33:05.439Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:33:05.464Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:33:30.974Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:33:31.011Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:34:25.848Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:34:25.879Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:41:44.910Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:44.948Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:41:58.196Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:41:58.230Z"}
+error: 
+    status - 500 
+    message - ValidationError: "title" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T05:42:58.784Z"}
+error: 
+    status - 500 
+    message - ValidationError: "description" is required 
+    url - /api/v1/notes 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T05:44:05.545Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:48:14.191Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:48:14.229Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:53:19.245Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:53:19.298Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:58:36.590Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:58:36.625Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T05:58:43.702Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T05:58:43.735Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:18:00.481Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:18:00.509Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:18:21.330Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:18:21.364Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:28:34.517Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:28:34.549Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:30:03.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:30:03.849Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:30:20.825Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:30:20.864Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:32:37.717Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:32:37.754Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:33:19.762Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:33:19.784Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:33:56.870Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:33:56.916Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:34:04.505Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:34:04.544Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:41:45.948Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:41:45.988Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:43:23.445Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:43:23.482Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:43:48.632Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:43:48.659Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:44:33.918Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:44:33.956Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:44:53.413Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:44:53.441Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:45:18.242Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:45:18.302Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:45:25.405Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:45:25.433Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:46:00.613Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:46:00.638Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:47:30.335Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:47:30.365Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:50:28.714Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:50:28.760Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:50:38.969Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:50:38.999Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.findByIdAndDelete is not a function
+    at _callee5$ (D:\Java Script\FundoNotes\src\services\/note.service.js:40:16)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteNote (D:\Java Script\FundoNotes\src\services\/note.service.js:39:24)
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:60:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8aac080a3194814465a9a 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-31T06:50:41.192Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:51:06.018Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:51:06.079Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.findByIdAndDelete is not a function
+    at _callee5$ (D:\Java Script\FundoNotes\src\services\/note.service.js:40:16)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteNote (D:\Java Script\FundoNotes\src\services\/note.service.js:39:24)
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:60:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8aac080a3194814465a9a 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-31T06:51:09.743Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.findByIdAndDelete is not a function
+    at _callee5$ (D:\Java Script\FundoNotes\src\services\/note.service.js:40:16)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteNote (D:\Java Script\FundoNotes\src\services\/note.service.js:39:24)
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:60:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8aac080a3194814465a9a 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-31T06:51:11.475Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:51:25.402Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:51:25.434Z"}
+error: 
+    status - 500 
+    message - TypeError: Note.findByIdAndUpdate is not a function
+    at _callee5$ (D:\Java Script\FundoNotes\src\services\/note.service.js:40:16)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.deleteNote (D:\Java Script\FundoNotes\src\services\/note.service.js:39:24)
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:60:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d8aac080a3194814465a9a 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-31T06:51:29.748Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:52:49.534Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:52:49.590Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:53:00.895Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:53:00.938Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:53:11.012Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:53:11.052Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:54:43.478Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:54:43.516Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:54:49.169Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T06:54:49.192Z"}

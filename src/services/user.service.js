@@ -1,5 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
+import Jwt from 'jsonwebtoken';
 
 //get all users
 export const getAllUsers = async () => {
@@ -8,30 +9,37 @@ export const getAllUsers = async () => {
 };
 
 //create new user
-export const newUser = async (body) => {
-  const salt = await bcrypt.genSalt(10);
-  body.password = await bcrypt.hash(body.password, salt);
-  const data = await User.create(body);
-  return data;
+export const userRegistration = async (body) => {
+  const userexist = await User.findOne({ email: body.email });
+  if (!userexist) {
+    const salt = await bcrypt.genSalt(10);
+    body.password = await bcrypt.hash(body.password, salt);
+    const data = await User.create(body);
+    return data;
+  }
+  else {
+    throw new Error("User already exist")
+  }
 };
 
 // login user
 export const login = async (body) => {
   try {
-    let user = await User.findOne({ email: body.email });
+    const user = await User.findOne({ email: body.email });
     if (!user)
-      throw new error("Invalid Email");
+      throw new Error("Invalid Email");
 
     const validPassword = await bcrypt.compare(body.password, user.password);
     if (!validPassword)
-      throw new error("Invalid Password");
+      throw new Error("Invalid Password");
     else
-      return user;
+      var token = Jwt.sign({ email: user.email, id: user._id }, process.env.SECRET_KEY);
+    return (user, token);
   }
   catch (error) {
-    throw new error(error)
+    throw new Error(error)
   }
-}
+};
 
 // //update single user
 // export const updateUser = async (_id, body) => {

@@ -1,0 +1,675 @@
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:45:01.572Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T04:45:11.676Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T04:45:35.738Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:54:56.317Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:55:13.355Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:55:43.546Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T04:55:53.251Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:56:01.852Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T04:56:11.784Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:57:03.937Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T04:57:17.534Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T04:57:19.148Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T04:57:21.416Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T04:57:40.856Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:58:19.875Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T04:58:35.350Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T04:59:55.338Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:00:08.439Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:00:33.114Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:00:45.415Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:00:55.747Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:17:15.235Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:17:26.047Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:20:59.563Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:21:10.162Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:21:27.307Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:21:44.024Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:23:10.775Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:23:17.433Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:23:32.228Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:23:38.520Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:23:49.426Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:24:55.477Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:25:04.261Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:25:51.922Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:26:02.472Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:26:16.401Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:26:17.266Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:27:15.973Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:27:29.431Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:41:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:27:46.694Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:41:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:27:48.920Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:41:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:28:07.531Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:28:46.709Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:28:53.827Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:29:07.606Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:29:20.125Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.throw (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:29:34.537Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:29:47.630Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:30:05.549Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:30:16.662Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:30:19.904Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:31:40.309Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:122:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:31:42.627Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:31:52.571Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:122:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:31:52.802Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:32:15.268Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:122:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:32:34.123Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:122:19)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:175:3)
+    at router (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at logger (D:\Java Script\FundoNotes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:328:13)
+    at D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:346:12)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\index.js:280:10)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:32:35.679Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:32:53.458Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:33:07.885Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:33:21.606Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:33:22.883Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.login (D:\Java Script\FundoNotes\src\services\/user.service.js:26:19)
+    at _callee2$ (D:\Java Script\FundoNotes\src\controllers\/user.controller.js:124:36)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:33:24.088Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:34:03.644Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:34:26.816Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:35:47.141Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:35:54.949Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:36:04.400Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:37:26.538Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:39:33.958Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:39:34.138Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token / in JSON at position 79
+    at JSON.parse (<anonymous>)
+    at parse (D:\Java Script\FundoNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:40:43.655Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:41:06.165Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:42:21.431Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:42:21.469Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:42:33.436Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:42:33.467Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:43:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:42:56.558Z"}
+info: Server started at http://localhost:6000/api/v1/ {"timestamp":"2023-01-30T05:43:18.601Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:43:18.655Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T05:45:51.797Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T05:45:51.821Z"}
+error: 
+    status - 500 
+    message - TypeError: _context3.t0 is not a constructor
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:42:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T05:46:37.551Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:40:17.942Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:40:17.969Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 89
+    at JSON.parse (<anonymous>)
+    at parse (D:\Java Script\FundoNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:41:26.822Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Email
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:41:40.242Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:48:06.170Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:48:06.197Z"}
+error: 
+    status - 500 
+    message - Error: Error: secretOrPrivateKey must have a value
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1//users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:48:12.560Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:49:30.598Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:49:30.635Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1//users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-30T11:49:38.993Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1//users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-30T11:51:03.092Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:52:02.063Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:52:02.088Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:52:15.322Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:52:15.382Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:52:56.581Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:52:56.638Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-30T11:56:14.286Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:56:14.309Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:58:20.810Z"}

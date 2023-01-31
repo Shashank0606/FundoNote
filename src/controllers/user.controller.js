@@ -1,16 +1,7 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
-import User from '../models/user.model';
-import Joi from '@hapi/joi';
-import bcrypt from 'bcrypt';
-import jwt from 'jsonwebtoken';
-import LoginValidator from '../validators/user.validator'
-/**
- * Controller to get all users available
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
+
+
 // export const getAllUsers = async (req, res, next) => {
 //   try {
 //     const data = await UserService.getAllUsers();
@@ -51,19 +42,14 @@ import LoginValidator from '../validators/user.validator'
  */
 export const newUser = async (req, res, next) => {
   try {
-    let user = await User.findOne({ email: req.body.email });
-    if (user) {
-      return res.status(422).send("Email-ID Already exist")
-    }
-    else {
-      const data = await UserService.newUser(req.body);
-      res.status(HttpStatus.CREATED).json({
-        code: HttpStatus.CREATED,
-        data: data,
-        message: 'User created successfully'
-      })
-    }
-  } catch (error) {
+    const data = await UserService.userRegistration(req.body);
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
+      data: data,
+      message: 'User created successfully'
+    })
+  }
+  catch (error) {
     next(error);
   }
 };
@@ -131,8 +117,9 @@ export const login = async (req, res, next) => {
       code: HttpStatus.ACCEPTED,
       data: data,
       message: 'User Login Succesfully'
-    });
-  } catch (error) {
+    })
+  }
+  catch (error) {
     next(error);
   }
 };

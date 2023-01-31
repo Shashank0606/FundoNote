@@ -401,3 +401,371 @@ info: ::1 - - [27/Jan/2023:12:40:06 +0000] "POST /api/v1//users/ HTTP/1.1" 422 2
 
 info: ::1 - - [27/Jan/2023:12:40:17 +0000] "POST /api/v1//users/ HTTP/1.1" 201 328 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [27/Jan/2023:19:37:47 +0000] "POST /api/v1//users/login HTTP/1.1" 202 466 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:19:47:00 +0000] "POST /api/v1//users/login HTTP/1.1" 202 466 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:59:11 +0000] "POST /api/v1//users/login HTTP/1.1" 202 466 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:59:20 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:59:28 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:59:37 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:01:08 +0000] "POST /api/v1//users/ HTTP/1.1" 201 323 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:01:25 +0000] "POST /api/v1//users/login HTTP/1.1" 202 461 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:01:35 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:01:55 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:02:19 +0000] "POST /api/v1//users/login HTTP/1.1" 202 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:02:43 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:02:48 +0000] "POST /api/v1//users/login HTTP/1.1" 202 329 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:04:45 +0000] "POST /api/v1//users/login HTTP/1.1" 202 461 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:08:48 +0000] "POST /api/v1//users/login HTTP/1.1" 202 461 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:09:02 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:14:23 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:14:25 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:14:49 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:14:50 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:14:54 +0000] "POST /api/v1//users/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:15:09 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:15:14 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:15:23 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:16:21 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:16:25 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:18:11 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:18:15 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:20:19 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:20:23 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:25:09 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:25:20 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:25:48 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:25:49 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:25:54 +0000] "POST /api/v1//users/ HTTP/1.1" 500 53 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:26:10 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:26:17 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:27:45 +0000] "POST /api/v1//users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:28:18 +0000] "POST /api/v1//users/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:28:30 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:28:36 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:39:00 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:39:04 +0000] "POST /api/v1//users/login HTTP/1.1" 202 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:39:14 +0000] "POST /api/v1//users/login HTTP/1.1" 202 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:41:08 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:41:12 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:41:16 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:43:28 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:44:17 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:44:20 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:45:26 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:45:34 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:45:46 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:45:48 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:46:45 +0000] "POST /api/v1//users/login HTTP/1.1" 202 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:46:49 +0000] "POST /api/v1//users/login HTTP/1.1" 202 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:46:54 +0000] "POST /api/v1//users/login HTTP/1.1" 202 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:49:55 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:50:14 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:45:28 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:45:35 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:57:19 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:57:21 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:57:28 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:04:57:40 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:00:28 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:00:33 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:25:07 +0000] "POST /api/v1//users/login HTTP/1.1" 202 463 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:26:17 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:27:46 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:27:48 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:28:07 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:29:34 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:30:19 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:31:42 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:31:52 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:32:34 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:32:35 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:33:21 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:33:22 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:33:24 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:36:08 +0000] "POST /api/v1//users/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:37:19 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:37:26 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:40:28 +0000] "POST /api/v1//users/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:40:58 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:41:06 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:42:52 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:42:56 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:46:32 +0000] "POST /api/v1//users/login HTTP/1.1" 202 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:05:46:37 +0000] "POST /api/v1//users/login HTTP/1.1" 500 68 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:41:17 +0000] "POST /api/v1//users/ HTTP/1.1" 201 330 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:41:31 +0000] "POST /api/v1//users/login HTTP/1.1" 202 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:41:40 +0000] "POST /api/v1//users/login HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:48:12 +0000] "POST /api/v1//users/login HTTP/1.1" 500 78 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:49:39 +0000] "POST /api/v1//users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:51:03 +0000] "POST /api/v1//users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: noteRoute is not defined
+ReferenceError: noteRoute is not defined
+    at routes (D:\Java Script\FundoNotes\src\routes\/index.js:17:24)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._compile (D:\Java Script\FundoNotes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Object.newLoader [as .js] (D:\Java Script\FundoNotes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Jan 30 2023 17:28:19 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":155934},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19151961,"external":20652543,"heapTotal":92958720,"heapUsed":60374440,"rss":128864256},"pid":15596,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: noteRoute is not defined\n    at routes (D:\\Java Script\\FundoNotes\\src\\routes\\/index.js:17:24)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Module._compile (D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Object.newLoader [as .js] (D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1159:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1213:10)\n    at Module.load (node:internal/modules/cjs/loader:1037:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:878:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":24,"file":"D:\\Java Script\\FundoNotes\\src\\routes\\/index.js","function":"routes","line":17,"method":null,"native":false},{"column":38,"file":"D:\\Java Script\\FundoNotes\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1159,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1213,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1037,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":878,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [31/Jan/2023:05:26:00 +0000] "POST /api/v1/notes HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:27:09 +0000] "POST /api/v1/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:29:22 +0000] "POST /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:29:41 +0000] "POST /api/v1/users HTTP/1.1" 500 59 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:29:48 +0000] "POST /api/v1/users HTTP/1.1" 201 320 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:40:59 +0000] "POST /api/v1/users/login HTTP/1.1" 202 317 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:42:01 +0000] "POST /api/v1/users/lo HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:42:06 +0000] "POST /api/v1/users/login HTTP/1.1" 202 237 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:42:58 +0000] "POST /api/v1/notes HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:44:05 +0000] "POST /api/v1/notes HTTP/1.1" 500 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:44:11 +0000] "POST /api/v1/notes HTTP/1.1" 200 233 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:44:32 +0000] "POST /api/v1/notes HTTP/1.1" 200 313 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:44:46 +0000] "POST /api/v1/notes HTTP/1.1" 200 331 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:46:05 +0000] "PUT /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:46:23 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 873 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:46:42 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 334 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:47:31 +0000] "PUT /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:47:36 +0000] "PUT /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 340 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:06:32:46 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 343 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:02:52 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":44598},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19130409,"external":20650086,"heapTotal":93417472,"heapUsed":55730696,"rss":131039232},"pid":12140,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:10:12 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45039},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385598,"external":19903144,"heapTotal":53637120,"heapUsed":49426912,"rss":92442624},"pid":776,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:11:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45137},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18448584,"external":19968261,"heapTotal":92434432,"heapUsed":52586464,"rss":128991232},"pid":18616,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:13:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45235},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18445931,"external":19966335,"heapTotal":94793728,"heapUsed":52473192,"rss":132083712},"pid":18556,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:13:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45260},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18332480,"external":19852157,"heapTotal":92434432,"heapUsed":51303064,"rss":129044480},"pid":12032,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:14:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45324},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19323467,"external":20843144,"heapTotal":92102656,"heapUsed":58149952,"rss":130093056},"pid":15984,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at DeleteNote (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:58:24)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:25:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"DeleteNote","line":58,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":25,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:16:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45391},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19482529,"external":21002206,"heapTotal":92893184,"heapUsed":60383136,"rss":129822720},"pid":7756,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at DeleteNote (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:58:24)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:25:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"DeleteNote","line":58,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":25,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: uncaughtException: next is not defined
+ReferenceError: next is not defined
+    at _callee5$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:67:9)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at DeleteNote (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:58:24)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Tue Jan 31 2023 12:17:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":45480},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19158072,"external":20677749,"heapTotal":92893184,"heapUsed":55331304,"rss":130719744},"pid":17168,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: next is not defined\n    at _callee5$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:67:9)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at DeleteNote (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:58:24)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:25:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee5$","line":67,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"DeleteNote","line":58,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":25,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [31/Jan/2023:06:50:41 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:06:51:09 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:06:51:11 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:06:51:29 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:06:53:15 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
