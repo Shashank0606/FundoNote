@@ -3241,3 +3241,360 @@ info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T0
 info: Connected to the database. {"timestamp":"2023-01-31T06:54:43.516Z"}
 info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T06:54:49.169Z"}
 info: Connected to the database. {"timestamp":"2023-01-31T06:54:49.192Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T11:43:06.018Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:43:06.047Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T11:49:57.446Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T11:49:57.478Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T17:13:18.593Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T17:13:18.617Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:13:08.710Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:13:08.758Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:17:44.462Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:17:44.497Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:26:16.215Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:26:16.246Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:29:50.164Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:29:50.189Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:30:18.097Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:30:18.119Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:30:43.013Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:30:43.043Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:33:08.570Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:33:08.593Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:34:30.088Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:34:30.110Z"}
+error: uncaughtException: jwt is not defined
+ReferenceError: jwt is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:34:45)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:32:20)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Feb 01 2023 00:04:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87898},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19155749,"external":20675386,"heapTotal":92905472,"heapUsed":56438536,"rss":129277952},"pid":12080,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: jwt is not defined\n    at _callee3$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:34:45)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at getAll (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:32:20)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-01-31T18:34:31.893Z","trace":[{"column":45,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":34,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":20,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"getAll","line":32,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:35:00.385Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:35:00.415Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:35:41.010Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:35:41.034Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:36:05.745Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:36:05.773Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:39:05.994Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:39:06.025Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:40:06.114Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:40:06.138Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:40:23.132Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:40:23.154Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:41:13.964Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:41:13.990Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:41:18.656Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:41:18.683Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T18:42:16.966Z"}
+error: 
+    status - 500 
+    message - Error: Error: Invalid Password
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/user.service.js:40:11)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T18:44:27.037Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:46:18.597Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:46:18.619Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:46:38.182Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:46:38.213Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:48:51.001Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:48:51.032Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:49:50.967Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:49:50.993Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:50:11.839Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:50:11.863Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:50:20.935Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:50:20.958Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:50:53.964Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:50:53.995Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:51:41.237Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:51:41.259Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:54:28.710Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:54:28.734Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:58:59.516Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:58:59.536Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:59:37.687Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:59:37.712Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T18:59:54.171Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:59:54.202Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:00:16.679Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:00:16.726Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:00:40.499Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:00:40.528Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:01:16.015Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 70
+    at JSON.parse (<anonymous>)
+    at parse (D:\Java Script\FundoNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:03:13.380Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:05:46.473Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:05:46.519Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:06:27.430Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:06:27.458Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:07:33.974Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:07:34.015Z"}
+error: 
+    status - 500 
+    message - ReferenceError: ObjectId is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/note.service.js:36:44)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (D:\Java Script\FundoNotes\src\services\/note.service.js:33:20)
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:39:40)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:33:20)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:09:55.217Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:10:43.715Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:10:43.736Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:10:47.694Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:10:47.722Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'Symbol(mongoose#schemaType)')
+    at SchemaType (D:\Java Script\FundoNotes\node_modules\mongoose\lib\schematype.js:41:26)
+    at ObjectId (D:\Java Script\FundoNotes\node_modules\mongoose\lib\schema\objectid.js:36:14)
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/note.service.js:37:52)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (D:\Java Script\FundoNotes\src\services\/note.service.js:34:20)
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:39:40)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:33:20)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:10:55.347Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:11:41.526Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:11:41.548Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'Symbol(mongoose#schemaType)')
+    at SchemaType (D:\Java Script\FundoNotes\node_modules\mongoose\lib\schematype.js:41:26)
+    at ObjectId (D:\Java Script\FundoNotes\node_modules\mongoose\lib\schema\objectid.js:36:14)
+    at _callee3$ (D:\Java Script\FundoNotes\src\services\/note.service.js:37:52)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAll (D:\Java Script\FundoNotes\src\services\/note.service.js:34:20)
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:39:40)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:33:20)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:27:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:11:52.467Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:12:09.375Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:12:09.398Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:12:38.340Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:12:38.364Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:13:02.157Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:13:02.179Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:13:52.250Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:13:52.273Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:21:38.976Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:21:39.001Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:23:45.178Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:23:45.204Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:24:13.083Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:13.115Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:24:17.374Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:17.400Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:24:29.966Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:29.992Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:24:59.368Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:59.402Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:25:09.488Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:25:09.515Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:26:51.019Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:26:51.050Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:28:17.901Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:28:17.928Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:28:36.221Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:28:36.258Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:28:44.959Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:28:44.985Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:29:49.620Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:29:49.643Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:30:18.539Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:30:18.565Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:31:16.500Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:31:16.525Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:32:21.134Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:32:21.154Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:32:44.253Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:32:44.279Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:34:16.527Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:34:16.564Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:34:21.139Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:34:21.165Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:35:14.444Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:35:14.467Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:35:24.727Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:35:24.746Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:37:47.265Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:37:47.289Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:38:50.979Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:38:51.003Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:39:04.528Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:39:04.562Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:40:37.917Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:40:37.941Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:43:52.663Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:43:52.684Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:47:37.754Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:47:37.781Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:48:03.251Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:48:03.285Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:48:21.943Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:48:21.981Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:48:43.560Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:48:43.592Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:51:54.810Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:51:54.835Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:53:38.850Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:53:38.875Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:53:46.004Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:53:46.028Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:54:28.810Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:54:28.844Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:56:02.193Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:56:02.227Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:56:32.437Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:56:32.462Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:57:28.005Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:57:28.034Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T19:58:11.631Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:58:11.654Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{
+  _id: 'trash',
+  trash: false,
+  archive: false,
+  userId: 'neeraj@gmail.com'
+}" (type Object) at path "_id" for model "Notes"
+    at model.Query.exec (D:\Java Script\FundoNotes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (D:\Java Script\FundoNotes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/trash/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:58:43.036Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T20:06:15.017Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:06:15.042Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-01-31T20:07:11.367Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T20:07:11.398Z"}

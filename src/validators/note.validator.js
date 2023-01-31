@@ -12,7 +12,7 @@ export const newNoteValidator = (req, res, next) => {
     if (error) {
         next(error);
     } else {
-        console.log("Client side error")
+        // Client side error
         next();
     }
 }

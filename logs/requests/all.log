@@ -769,3 +769,196 @@ info: ::1 - - [31/Jan/2023:06:51:29 +0000] "DELETE /api/v1/notes/63d8aac080a3194
 
 info: ::1 - - [31/Jan/2023:06:53:15 +0000] "DELETE /api/v1/notes/63d8aac080a3194814465a9a HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [31/Jan/2023:11:43:38 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 257 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:45:09 +0000] "POST /api/v1/notes/63d8feead243b607a8d52cbb HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:45:28 +0000] "PUT /api/v1/notes/63d8feead243b607a8d52cbb HTTP/1.1" 202 281 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:50:04 +0000] "DELETE /api/v1/notes/63d8feead243b607a8d52cbb HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:50:14 +0000] "PUT /api/v1/notes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:50:18 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 281 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:50:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 817 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:17:13:22 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 817 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:17:13:42 +0000] "DELETE /api/v1/notes/63d9007ac512103e3c995d1c HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:17:13:44 +0000] "DELETE /api/v1/notes/63d9007ac512103e3c995d1c HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:17:13:44 +0000] "DELETE /api/v1/notes/63d9007ac512103e3c995d1c HTTP/1.1" 200 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:26:26 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:27:39 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 202 347 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:30:02 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:30:19 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:30:44 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:33:16 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: jwt is not defined
+ReferenceError: jwt is not defined
+    at _callee3$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:34:45)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAll (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:32:20)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Feb 01 2023 00:04:31 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87898},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19171081,"external":20690758,"heapTotal":92905472,"heapUsed":56646824,"rss":130052096},"pid":12080,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: jwt is not defined\n    at _callee3$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:34:45)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at getAll (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:32:20)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":45,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee3$","line":34,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":20,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"getAll","line":32,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [31/Jan/2023:18:35:13 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:35:44 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:36:11 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:40:27 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:40:33 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:40:39 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:41:24 +0000] "GET /api/v1/notes HTTP/1.1" 202 653 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:42:16 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:44:14 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:44:27 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:44:34 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:45:47 +0000] "GET /api/v1/notes HTTP/1.1" 202 653 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:47:32 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:48:09 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:48:59 +0000] "GET /api/v1/notes HTTP/1.1" 202 689 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:50:22 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:51:04 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:51:49 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:18:55:38 +0000] "GET /api/v1/notes HTTP/1.1" 202 382 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:00:41 +0000] "GET /api/v1/notes HTTP/1.1" 202 382 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:00:48 +0000] "GET /api/v1/notes HTTP/1.1" 202 382 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:01:16 +0000] "POST /api/v1/users/ HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:01:59 +0000] "POST /api/v1/users/ HTTP/1.1" 201 319 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:03:16 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:04:21 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:04:38 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 349 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:04:44 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:09:55 +0000] "GET /api/v1/notes HTTP/1.1" 500 58 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:10:55 +0000] "GET /api/v1/notes HTTP/1.1" 500 109 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:11:52 +0000] "GET /api/v1/notes HTTP/1.1" 500 109 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:13:57 +0000] "GET /api/v1/notes HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:14:26 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:14:58 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:15:35 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:16:14 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:16:16 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:17:21 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:17:42 +0000] "GET /api/v1/notes HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:18:24 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:18:28 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:18:57 +0000] "GET /api/v1/notes HTTP/1.1" 202 37 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:19:41 +0000] "POST /api/v1/notes HTTP/1.1" 200 331 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:19:57 +0000] "POST /api/v1/notes HTTP/1.1" 200 366 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:20:01 +0000] "GET /api/v1/notes HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:20:16 +0000] "GET /api/v1/notes HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:33:10 +0000] "POST /api/v1/notes HTTP/1.1" 200 379 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:41:34 +0000] "GET /api/v1/notes HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:45:12 +0000] "POST /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 356 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:46:16 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:47:52 +0000] "GET /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:48:26 +0000] "POST /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:48:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:49:24 +0000] "POST /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 356 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:50:54 +0000] "GET /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:51:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:52:04 +0000] "POST /api/v1/notes/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:52:22 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:55:03 +0000] "PUT /api/v1/notes/trash/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 356 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:58:26 +0000] "PUT /api/v1/notes/trash/recover/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:58:43 +0000] "GET /api/v1/notes/trash/ HTTP/1.1" 500 210 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:58:58 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:09 +0000] "GET /api/v1/notes/trash/63d96cf62f56ca3a4cc15efa HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:14 +0000] "PUT /api/v1/notes/trash/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 356 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:21 +0000] "PUT /api/v1/notes/trash/recover/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:29 +0000] "PUT /api/v1/notes/trash/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 356 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:36 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 596 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:47 +0000] "GET /api/v1/notes/trash/recover/63d96cf62f56ca3a4cc15efa HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:19:59:52 +0000] "PUT /api/v1/notes/trash/recover/63d96cf62f56ca3a4cc15efa HTTP/1.1" 202 355 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:00:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
+

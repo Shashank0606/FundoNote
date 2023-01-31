@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service';
+import jwt from 'jsonwebtoken';
 
 
 // Create Note
@@ -16,6 +17,7 @@ export const createNote = async (req, res, next) => {
     }
 };
 
+// Update Note
 export const updateNote = async (req, res, next) => {
     try {
         const data = await NoteService.updateNote(req.params._id, req.body);
@@ -29,9 +31,10 @@ export const updateNote = async (req, res, next) => {
     }
 };
 
+// Get all Notes
 export const getAll = async (req, res, next) => {
     try {
-        const data = await NoteService.getAll();
+        const data = await NoteService.getAll(req.body.userId);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -42,9 +45,11 @@ export const getAll = async (req, res, next) => {
     }
 };
 
+
+// Get Note by id
 export const getById = async (req, res, next) => {
     try {
-        const data = await NoteService.getById(req.params._id);
+        const data = await NoteService.getById(req.params._id, req.body.userId);
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
@@ -55,6 +60,7 @@ export const getById = async (req, res, next) => {
     }
 };
 
+// Delete Note
 export const DeleteNote = async (req, res, next) => {
     try {
         await NoteService.deleteNote(req.params._id);
@@ -62,6 +68,32 @@ export const DeleteNote = async (req, res, next) => {
             code: HttpStatus.OK,
             data: [],
             message: 'Note deleted successfully'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+export const trash = async (req, res, next) => {
+    try {
+        const data = await NoteService.sendToTrash(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'OK'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+export const recovertrash = async (req, res, next) => {
+    try {
+        const data = await NoteService.recoverFromTrash(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'OK'
         });
     } catch (error) {
         next(error);
