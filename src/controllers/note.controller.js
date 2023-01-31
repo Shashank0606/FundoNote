@@ -100,3 +100,28 @@ export const recovertrash = async (req, res, next) => {
     }
 };
 
+export const archive = async (req, res, next) => {
+    try {
+        const data = await NoteService.sendToArchive(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'OK'
+        });
+    } catch (error) {
+        next(error);
+    }
+};
+
+export const recoverarchive = async (req, res, next) => {
+    try {
+        const data = await NoteService.recoverFromArchive(req.params._id, req.body.userId);
+        res.status(HttpStatus.ACCEPTED).json({
+            code: HttpStatus.ACCEPTED,
+            data: data,
+            message: 'OK'
+        });
+    } catch (error) {
+        next(error);
+    }
+};

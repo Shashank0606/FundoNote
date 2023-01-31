@@ -27,5 +27,10 @@ router.put('/trash/:_id', userAuth, noteController.trash);
 // recover from trash put
 router.put('/trash/recover/:_id', userAuth, noteController.recovertrash);
 
+// Send to archive by id
+router.put('/archive/:_id', userAuth, noteController.archive);
+
+// recover from trash put
+router.put('/archive/recover/:_id', userAuth, noteController.recoverarchive);
 
 export default router;

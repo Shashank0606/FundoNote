@@ -84,3 +84,24 @@ export const recoverFromTrash = async (_id, userId) => {
         throw new Error(err)
     }
 };
+
+
+// Send note to trash
+export const sendToArchive = async (_id, userId) => {
+    try {
+        const data = await Note.findByIdAndUpdate({ _id, userId: userId }, { archive: true });
+        return data;
+    } catch (err) {
+        throw new Error(err)
+    }
+};
+
+// Recover from trash
+export const recoverFromArchive = async (_id, userId) => {
+    try {
+        const data = await Note.findByIdAndUpdate({ _id, userId: userId }, { archive: false });
+        return data;
+    } catch (err) {
+        throw new Error(err)
+    }
+};
