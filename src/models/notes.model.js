@@ -1,3 +1,4 @@
+import { required } from '@hapi/joi/lib/base';
 import { Schema, model } from 'mongoose';
 
 const noteSchema = new Schema(
@@ -12,13 +13,16 @@ const noteSchema = new Schema(
             type: String,
         },
         archive: {
-            type: Boolean
+            type: Boolean,
+            default: false
         },
         trash: {
-            type: Boolean
+            type: Boolean,
+            default: false
         },
         userId: {
-            type: String
+            type: String,
+
         }
 
     },

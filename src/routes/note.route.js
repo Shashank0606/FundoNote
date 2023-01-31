@@ -18,8 +18,14 @@ router.get('', userAuth, noteController.getAll);
 // get a note by id
 router.get('/:_id', userAuth, noteController.getById);
 
-// delete note by
+// delete note by id
 router.delete('/:_id', userAuth, noteController.DeleteNote);
+
+// send note to trash by id
+router.put('/trash/:_id', userAuth, noteController.trash);
+
+// recover from trash put
+router.put('/trash/recover/:_id', userAuth, noteController.recovertrash);
 
 
 export default router;
