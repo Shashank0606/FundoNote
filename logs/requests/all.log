@@ -986,3 +986,222 @@ info: ::1 - - [31/Jan/2023:20:26:32 +0000] "PUT /api/v1/notes/archive/recover/63
 
 info: ::1 - - [31/Jan/2023:20:26:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [31/Jan/2023:20:37:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:38:38 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:38:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 345 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:39:49 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:40:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:47:31 +0000] "PUT /api/v1/notes/archive/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:47:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 345 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:36 +0000] "GET /api/v1/notes/archive/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:42 +0000] "PUT /api/v1/notes/archive/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [01/Feb/2023:05:20:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:20:13 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:20:58 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:21:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:21:41 +0000] "GET /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 961 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:58 +0000] "GET /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:01 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:38 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:36 +0000] "PUT /api/v1/notes/trash/63d9f77d3c64b5451c3ccd95 HTTP/1.1" 202 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:47 +0000] "GET /api/v1/notes HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:58 +0000] "PUT /api/v1/notes/trash/recover/63d9f77d3c64b5451c3ccd95 HTTP/1.1" 202 375 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:25:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:41 +0000] "GET /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:46 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 50 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at D:\Java Script\FundoNotes\src\services\/note.service.js:73:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Feb 01 2023 17:53:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":152052},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18281397,"external":19798943,"heapTotal":53374976,"heapUsed":48495112,"rss":91590656},"pid":13100,"uid":null,"version":"v18.12.1"},"stack":"TypeError: callback is not a function\n    at D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:73:9\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":null,"line":73,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [01/Feb/2023:12:42:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:42:50 +0000] "GET /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:42:54 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 376 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:19 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:35 +0000] "GET /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:38 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 376 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:46:37 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:47:01 +0000] "GET /api/v1/notes//trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:47:05 +0000] "PUT /api/v1/notes//trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:47:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:47:31 +0000] "GET /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:48:32 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" - - "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:18:51:43 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" - - "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:02:28 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:03:12 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:03:55 +0000] "GET /api/v1/notes HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:04:09 +0000] "GET /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:04:11 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:04:21 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:05:03 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:05:10 +0000] "GET /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:05:13 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:05:33 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:08:29 +0000] "GET /api/v1/notes HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:08:40 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at callback (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:110:29)
+    at _callee7$ (D:\Java Script\FundoNotes\src\services\/note.service.js:98:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.recoverFromTrash (D:\Java Script\FundoNotes\src\services\/note.service.js:89:30)
+    at _callee7$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:104:17)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at recovertrash (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:102:26)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:38:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":176353},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19418571,"external":20938248,"heapTotal":95772672,"heapUsed":68664200,"rss":134664192},"pid":21472,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: data is not defined\n    at callback (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:110:29)\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:98:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.recoverFromTrash (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:89:30)\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:104:17)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at recovertrash (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:102:26)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":29,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"callback","line":110,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":98,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":30,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"Object.recoverFromTrash","line":89,"method":"recoverFromTrash","native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee7$","line":104,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":26,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"recovertrash","line":102,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [01/Feb/2023:19:08:47 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 500 22 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:09:05 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:09:08 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:10:00 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:10:08 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:10:14 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:17:15 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:17:20 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:17:40 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at callback (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:108:41)
+    at D:\Java Script\FundoNotes\src\services\/note.service.js:94:20
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:47:41 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":176887},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18338957,"external":19856503,"heapTotal":58273792,"heapUsed":53611768,"rss":96710656},"pid":12880,"uid":null,"version":"v18.12.1"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at callback (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:108:41)\n    at D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:94:20\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":393,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":644,"method":"setHeader","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"callback","line":108,"method":null,"native":false},{"column":20,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":null,"line":94,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [01/Feb/2023:19:19:07 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:19:13 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:19:16 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:21:36 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:21:39 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:22:52 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:22:59 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" - - "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:23:31 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:23:35 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:24:45 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:24:48 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:25:52 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:25:54 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 414 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:19:29:08 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: data.resolve is not a function
+TypeError: data.resolve is not a function
+    at _callee7$ (D:\Java Script\FundoNotes\src\services\/note.service.js:97:52)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:59:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177577},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19191851,"external":20711528,"heapTotal":96559104,"heapUsed":61760600,"rss":136015872},"pid":10636,"uid":null,"version":"v18.12.1"},"stack":"TypeError: data.resolve is not a function\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:97:52)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":52,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":97,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [01/Feb/2023:19:31:22 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 414 "-" "PostmanRuntime/7.30.1"
+

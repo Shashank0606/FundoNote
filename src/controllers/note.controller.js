@@ -74,32 +74,73 @@ export const DeleteNote = async (req, res, next) => {
     }
 };
 
+// Trash Note
 export const trash = async (req, res, next) => {
-    try {
-        const data = await NoteService.sendToTrash(req.params._id, req.body.userId);
+
+    NoteService.sendToTrash(req.params._id, req.body.userId, (error, response) => {
+        if (error) {
+            next(error)
+        }
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
-            data: data,
-            message: 'OK'
+            data: response,
+            message: 'Note Trashed successfully'
         });
-    } catch (error) {
-        next(error);
-    }
+    });
+    // try {
+    //     res.status(HttpStatus.ACCEPTED).json({
+    //         code: HttpStatus.ACCEPTED,
+    //         data: data,
+    //         message: 'Note Trashed successfully'
+    //     });
+    // } catch (error) {
+    //     next(error);
+    // }
 };
 
+// export const trash = async (req, res, next) => {
 export const recovertrash = async (req, res, next) => {
-    try {
-        const data = await NoteService.recoverFromTrash(req.params._id, req.body.userId);
+
+    NoteService.recoverFromTrash(req.params._id, req.body.userId, (error, response) => {
+        if (error) {
+            next(error)
+        }
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
-            data: data,
-            message: 'OK'
+            data: response,
+            message: 'Note recovered from Trashed successfully'
         });
-    } catch (error) {
-        next(error);
-    }
-};
+    });
+}
 
+
+//     try {
+//         const data = await NoteService.sendToTrash(req.params._id, req.body.userId);
+//         res.status(HttpStatus.ACCEPTED).json({
+//             code: HttpStatus.ACCEPTED,
+//             data: data,
+//             message: 'Note Trashed successfully'
+//         });
+//     } catch (error) {
+//         next(error);
+//     }
+// };
+
+// recover trash
+// export const recovertrash = async (req, res, next) => {
+//     try {
+//         const data = await NoteService.recoverFromTrash(req.params._id, req.body.userId);
+//         res.status(HttpStatus.ACCEPTED).json({
+//             code: HttpStatus.ACCEPTED,
+//             data: data,
+//             message: 'OK'
+//         });
+//     } catch (error) {
+//         next(error);
+//     }
+// };
+
+// Archive Note
 export const archive = async (req, res, next) => {
     try {
         const data = await NoteService.sendToArchive(req.params._id, req.body.userId);
@@ -113,6 +154,7 @@ export const archive = async (req, res, next) => {
     }
 };
 
+// Recover Archive note
 export const recoverarchive = async (req, res, next) => {
     try {
         const data = await NoteService.recoverFromArchive(req.params._id, req.body.userId);

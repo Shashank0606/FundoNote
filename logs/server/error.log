@@ -3045,3 +3045,163 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2023-01-31T19:58:43.036Z"}
+error: uncaughtException: callback is not a function
+TypeError: callback is not a function
+    at D:\Java Script\FundoNotes\src\services\/note.service.js:73:9
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Wed Feb 01 2023 17:53:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":152052},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18281373,"external":19798879,"heapTotal":53374976,"heapUsed":48429632,"rss":90787840},"pid":13100,"uid":null,"version":"v18.12.1"},"stack":"TypeError: callback is not a function\n    at D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:73:9\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-02-01T12:23:46.452Z","trace":[{"column":9,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":null,"line":73,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:02:28.232Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:03:12.854Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:04:21.804Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:05:33.653Z"}
+error: uncaughtException: data is not defined
+ReferenceError: data is not defined
+    at callback (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:110:29)
+    at _callee7$ (D:\Java Script\FundoNotes\src\services\/note.service.js:98:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.recoverFromTrash (D:\Java Script\FundoNotes\src\services\/note.service.js:89:30)
+    at _callee7$ (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:104:17)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at recovertrash (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:102:26)
+    at Layer.handle [as handle_request] (D:\Java Script\FundoNotes\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\Java Script\FundoNotes\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (D:\Java Script\FundoNotes\src\middlewares\/auth.middleware.js:26:5)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:38:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":176353},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19395215,"external":20914852,"heapTotal":95510528,"heapUsed":68144296,"rss":133988352},"pid":21472,"uid":null,"version":"v18.12.1"},"stack":"ReferenceError: data is not defined\n    at callback (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:110:29)\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:98:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at Object.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12)\n    at Object.recoverFromTrash (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:89:30)\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:104:17)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at recovertrash (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:102:26)\n    at Layer.handle [as handle_request] (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js:95:5)\n    at next (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js:144:13)\n    at _callee$ (D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js:26:5)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-02-01T19:08:47.075Z","trace":[{"column":29,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"callback","line":110,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":98,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":30,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"Object.recoverFromTrash","line":89,"method":"recoverFromTrash","native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"_callee7$","line":104,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":26,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"recovertrash","line":102,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\layer.js","function":"Layer.handle [as handle_request]","line":95,"method":"handle [as handle_request]","native":false},{"column":13,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\router\\route.js","function":"next","line":144,"method":null,"native":false},{"column":5,"file":"D:\\Java Script\\FundoNotes\\src\\middlewares\\/auth.middleware.js","function":"_callee$","line":26,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:08:47.126Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:09:05.909Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:09:08.259Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:10:14.863Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-02-01T19:17:20.538Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:17:40.947Z"}
+error: uncaughtException: Cannot set headers after they are sent to the client
+Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:393:5)
+    at ServerResponse.setHeader (node:_http_outgoing:644:11)
+    at ServerResponse.header (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:794:10)
+    at ServerResponse.send (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:174:12)
+    at ServerResponse.json (D:\Java Script\FundoNotes\node_modules\express\lib\response.js:278:15)
+    at callback (D:\Java Script\FundoNotes\src\controllers\/note.controller.js:108:41)
+    at D:\Java Script\FundoNotes\src\services\/note.service.js:94:20
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:47:40 GMT+0530 (India Standard Time)","error":{"code":"ERR_HTTP_HEADERS_SENT"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":176887},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18330741,"external":19848247,"heapTotal":58273792,"heapUsed":53497488,"rss":95830016},"pid":12880,"uid":null,"version":"v18.12.1"},"stack":"Error: Cannot set headers after they are sent to the client\n    at new NodeError (node:internal/errors:393:5)\n    at ServerResponse.setHeader (node:_http_outgoing:644:11)\n    at ServerResponse.header (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:794:10)\n    at ServerResponse.send (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:174:12)\n    at ServerResponse.json (D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js:278:15)\n    at callback (D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js:108:41)\n    at D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:94:20\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-02-01T19:17:41.003Z","trace":[{"column":5,"file":"node:internal/errors","function":"new NodeError","line":393,"method":null,"native":false},{"column":11,"file":"node:_http_outgoing","function":"ServerResponse.setHeader","line":644,"method":"setHeader","native":false},{"column":10,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.header","line":794,"method":"header","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.send","line":174,"method":"send","native":false},{"column":15,"file":"D:\\Java Script\\FundoNotes\\node_modules\\express\\lib\\response.js","function":"ServerResponse.json","line":278,"method":"json","native":false},{"column":41,"file":"D:\\Java Script\\FundoNotes\\src\\controllers\\/note.controller.js","function":"callback","line":108,"method":null,"native":false},{"column":20,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":null,"line":94,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:19:13.990Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:19:16.029Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:21:39.495Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:23:35.005Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T19:24:48.261Z"}
+error: uncaughtException: data.resolve is not a function
+TypeError: data.resolve is not a function
+    at _callee7$ (D:\Java Script\FundoNotes\src\services\/note.service.js:97:52)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:59:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177577},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19183635,"external":20703272,"heapTotal":96559104,"heapUsed":61675432,"rss":135237632},"pid":10636,"uid":null,"version":"v18.12.1"},"stack":"TypeError: data.resolve is not a function\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:97:52)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-02-01T19:29:11.309Z","trace":[{"column":52,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":97,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}

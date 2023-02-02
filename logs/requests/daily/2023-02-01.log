@@ -168,3 +168,81 @@ info: ::1 - - [31/Jan/2023:20:26:32 +0000] "PUT /api/v1/notes/archive/recover/63
 
 info: ::1 - - [31/Jan/2023:20:26:41 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 918 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [31/Jan/2023:20:37:08 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:38:38 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:38:45 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 345 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:39:49 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:40:05 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:47:31 +0000] "PUT /api/v1/notes/archive/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 308 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:47:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 345 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:36 +0000] "GET /api/v1/notes/archive/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:42 +0000] "PUT /api/v1/notes/archive/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:20:48:54 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [01/Feb/2023:05:20:01 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:20:13 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:20:58 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:21:07 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 619 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:21:41 +0000] "GET /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:46 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 961 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:22:58 +0000] "GET /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:01 +0000] "PUT /api/v1/notes/trash/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 331 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:38 +0000] "PUT /api/v1/notes/trash/recover/63d969cd3b8e68274ccd1459 HTTP/1.1" 202 307 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:23:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 200 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:17 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:36 +0000] "PUT /api/v1/notes/trash/63d9f77d3c64b5451c3ccd95 HTTP/1.1" 202 399 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:47 +0000] "GET /api/v1/notes HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:24:58 +0000] "PUT /api/v1/notes/trash/recover/63d9f77d3c64b5451c3ccd95 HTTP/1.1" 202 375 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:25:06 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:41 +0000] "GET /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:23:46 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 50 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:42:31 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:42:50 +0000] "GET /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:42:54 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 376 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:04 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:19 +0000] "PUT /api/v1/notes/trash/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 398 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:29 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 687 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:35 +0000] "GET /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:38 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 376 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:12:43:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 202 1029 "-" "PostmanRuntime/7.30.1"
+
