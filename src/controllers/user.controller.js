@@ -123,3 +123,20 @@ export const login = async (req, res, next) => {
     next(error);
   }
 };
+
+
+export const forgetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.forgetPassword(req.body);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'token succesfully send in email'
+    })
+  }
+  catch (error) {
+    next(error);
+  }
+};
+
+

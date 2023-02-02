@@ -1,6 +1,9 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 import Jwt from 'jsonwebtoken';
+// import sendMail from '../utils/user.util'
+import { sendMail } from '../utils/user.util';
+
 
 //get all users
 export const getAllUsers = async () => {
@@ -66,3 +69,26 @@ export const login = async (body) => {
 //   const data = await User.findById(id);
 //   return data;
 // };
+
+export const forgetPassword = async (body) => {
+  try {
+    const user = await User.findOne({ email: body.email });
+    if (!user) {
+      throw new Error("Invalid Email");
+    }
+    else
+      var token = await Jwt.sign(user.email, process.env.EMAIL_SECRET_KEY);
+    const data = await sendMail(token, user.email)
+    // console.log("sadfasdfasd-------------", token);
+    // console.log("Token send in mail------", data);
+    return {
+      message: `Token send in mail`,
+      data
+    }
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+};
+
+

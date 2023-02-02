@@ -89,9 +89,9 @@ export const sendToTrash = async (_id, userId, callback) => {
 export const recoverFromTrash = async (_id, userId, callback) => {
     const data = await new Promise((resolve, reject) => {
         Note.findByIdAndUpdate({ _id, userId: userId }, { trash: false }, { new: true }).then(res => {
-            resolve(res)
+            callback(null, res)
         }).catch(err => {
-            reject(err)
+            callback(err, null)
         })
     })
     callback(null, data);

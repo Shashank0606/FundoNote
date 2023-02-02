@@ -1205,3 +1205,57 @@ TypeError: data.resolve is not a function
     at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:59:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177577},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19191851,"external":20711528,"heapTotal":96559104,"heapUsed":61760600,"rss":136015872},"pid":10636,"uid":null,"version":"v18.12.1"},"stack":"TypeError: data.resolve is not a function\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:97:52)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":52,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":97,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
 info: ::1 - - [01/Feb/2023:19:31:22 +0000] "PUT /api/v1/notes/trash/recover/63d9f721cd0e8c491cb6361a HTTP/1.1" 202 414 "-" "PostmanRuntime/7.30.1"
 
+info: ::1 - - [02/Feb/2023:16:39:18 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:39:37 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:39:47 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:39:59 +0000] "POST /api/v1/users HTTP/1.1" 201 328 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:40:39 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:41:26 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:16:41:28 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:10:27 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:10:30 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:14:09 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:14:11 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:15:57 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 58 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:18:20 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 73 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:19:58 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:20:16 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:20:16 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:20:39 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:21:31 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:22:18 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:22:40 +0000] "GET /undefined HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:26:45 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:27:41 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:28:39 +0000] "POST /api/v1/users/ HTTP/1.1" 201 328 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:29:00 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [02/Feb/2023:17:29:14 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:40:07 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [02/Feb/2023:17:42:27 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 613 "-" "PostmanRuntime/7.30.1"
+

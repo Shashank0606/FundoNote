@@ -3890,3 +3890,219 @@ TypeError: data.resolve is not a function
     at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Thu Feb 02 2023 00:59:11 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":177577},"process":{"argv":["node","D:\\Java Script\\FundoNotes\\src\\index.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19183635,"external":20703272,"heapTotal":96559104,"heapUsed":61675432,"rss":135237632},"pid":10636,"uid":null,"version":"v18.12.1"},"stack":"TypeError: data.resolve is not a function\n    at _callee7$ (D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js:97:52)\n    at tryCatch (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","timestamp":"2023-02-01T19:29:11.309Z","trace":[{"column":52,"file":"D:\\Java Script\\FundoNotes\\src\\services\\/note.service.js","function":"_callee7$","line":97,"method":null,"native":false},{"column":17,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"D:\\Java Script\\FundoNotes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
 info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-01T19:29:50.688Z"}
 info: Connected to the database. {"timestamp":"2023-02-01T19:29:50.710Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T16:38:19.347Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T16:38:19.424Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:39:18.923Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:39:37.406Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstname" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:39:47.168Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:40:39.411Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:41:26.673Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T16:41:28.096Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:10:24.462Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:10:24.489Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:10:27.532Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:10:30.317Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:14:05.428Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:14:05.447Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:14:09.657Z"}
+error: 
+    status - 500 
+    message - Error: payload is required
+    at Object.sign (D:\Java Script\FundoNotes\node_modules\jsonwebtoken\sign.js:111:20)
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:27)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:14:11.085Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:15:52.293Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:15:52.317Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sendMail is not defined
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:77:14)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:15:57.974Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:16:21.487Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:16:21.510Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:16:45.091Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:16:45.116Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:17:21.793Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:17:21.812Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:18:12.406Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:18:12.428Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _user2.default) is not a function
+    at _callee4$ (D:\Java Script\FundoNotes\src\services\/user.service.js:79:30)
+    at tryCatch (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (D:\Java Script\FundoNotes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:18:20.634Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:19:30.972Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:19:30.992Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:19:50.128Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:19:50.150Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:21:22.747Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:21:22.768Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:25:45.182Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:25:45.203Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:26:11.575Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:26:11.599Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:27:29.322Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:27:29.364Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 58
+    at JSON.parse (<anonymous>)
+    at parse (D:\Java Script\FundoNotes\node_modules\body-parser\lib\types\json.js:89:19)
+    at D:\Java Script\FundoNotes\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:231:16)
+    at done (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\Java Script\FundoNotes\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/forgetPass 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-02T17:28:52.489Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:32:28.316Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:32:28.336Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:33:17.822Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:33:17.901Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:35:27.128Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:35:27.168Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:35:55.160Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:35:55.195Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:37:25.075Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:37:25.110Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:38:52.750Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:38:52.798Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:41:08.945Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:41:08.975Z"}
+info: Server started at http://localhost:9000/api/v1/ {"timestamp":"2023-02-02T17:42:17.821Z"}
+info: Connected to the database. {"timestamp":"2023-02-02T17:42:17.857Z"}
