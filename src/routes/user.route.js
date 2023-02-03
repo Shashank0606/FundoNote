@@ -6,9 +6,6 @@ import { services } from '../services/user.service'
 
 const router = express.Router();
 
-//route to get all users
-// router.get('', userController.getAllUsers);
-
 //route to create a new user
 router.post('', newUserValidator, userController.newUser);
 
@@ -18,6 +15,7 @@ router.post('/login', userController.login);
 // forget password
 router.post("/forgetPass", userController.forgetPassword)
 
-
+// Reset password
+router.post("/reset/:token", userAuthforget, userController.resetPassword)
 
 export default router;

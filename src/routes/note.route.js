@@ -22,15 +22,15 @@ router.get('/:_id', userAuth, noteController.getById);
 router.delete('/:_id', userAuth, noteController.DeleteNote);
 
 // send note to trash by id
-router.put('/trash/:_id', userAuth, noteController.trash);
+router.put('/:_id/trash', userAuth, noteController.trash);
 
 // recover from trash put
-router.put('/trash/recover/:_id', userAuth, noteController.recovertrash);
+router.put('/:_id/trash/recover', userAuth, noteController.recovertrash);
 
 // Send to archive by id
-router.put('/archive/:_id', userAuth, noteController.archive);
+router.put('/:_id/archive', userAuth, noteController.archive);
 
 // recover from trash put
-router.put('/archive/recover/:_id', userAuth, noteController.recoverarchive);
+router.put('/:_id/archive/recover', userAuth, noteController.recoverarchive);
 
 export default router;

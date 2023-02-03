@@ -140,3 +140,17 @@ export const forgetPassword = async (req, res, next) => {
 };
 
 
+// reset password
+export const resetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.resetPassword(req.body, req.params.token);
+    res.status(HttpStatus.ACCEPTED).json({
+      code: HttpStatus.ACCEPTED,
+      data: data,
+      message: 'Password reset successfully'
+    })
+  }
+  catch (error) {
+    next(error);
+  }
+};

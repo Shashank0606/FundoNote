@@ -1259,3 +1259,81 @@ info: ::1 - - [02/Feb/2023:17:40:07 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dm
 
 info: ::1 - - [02/Feb/2023:17:42:27 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 613 "-" "PostmanRuntime/7.30.1"
 
+info: ::1 - - [03/Feb/2023:02:37:37 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Feb/2023:02:37:37 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Feb/2023:02:38:05 +0000] "POST /api/v1/users//reset/eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:40:31 +0000] "POST /api/v1/users//reset/eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:40:33 +0000] "POST /api/v1/users//reset/eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:42:17 +0000] "POST /api/v1/users//reset/eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 500 75 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:42:33 +0000] "POST /api/v1/users//reset/eyJhbGciOiJIUzI1NiJ9.c2hhc2hhbms2MDZAZ21haWwuY29t.Lw-iNykDCjlaspXXf5ogipXjT0632MA8wilkWAHh-oQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:43:32 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 612 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:43:49 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Feb/2023:02:45:02 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:47:52 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:47:53 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:49:07 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:49:08 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:51:21 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 71 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:56:17 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:56:20 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:56:45 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 609 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:57:05 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Feb/2023:02:57:16 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 70 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:02:57:17 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 70 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:00:01 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 611 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:00:17 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [03/Feb/2023:03:00:31 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 70 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:08:41 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 69 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:27:20 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:28:09 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [03/Feb/2023:03:28:49 +0000] "POST /api/v1/users/reset/eyJhbGciOiJIUzI1NiJ9.c2FtNjA2dmxvZ3NAZ21haWwuY29t.FGScY6Y2NCYSSPyuSQkeliRIz0foKa_pyOW3UChcbhQ HTTP/1.1" 202 52 "-" "PostmanRuntime/7.30.1"
+
+info: ::ffff:127.0.0.1 - - [03/Feb/2023:07:06:56 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Feb 03 2023 12:36:56 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80856},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18957608,"external":21141201,"heapTotal":133275648,"heapUsed":104787440,"rss":175403008},"pid":11308,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Feb/2023:07:09:08 +0000] "POST /api/v1/users HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Fri Feb 03 2023 12:39:08 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80987},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18850311,"external":21030162,"heapTotal":129728512,"heapUsed":97197288,"rss":170012672},"pid":12664,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}

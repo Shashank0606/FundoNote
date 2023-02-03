@@ -32,13 +32,13 @@ export const userAuth = async (req, res, next) => {
 // forget password
 export const userAuthforget = async (req, res, next) => {
   try {
-    let bearerToken = req.params.token('Authorization');
+    let bearerToken = req.params.token
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    bearerToken = bearerToken.split(' ')[1];
+    // bearerToken = bearerToken.split(' ');
 
     const user = await jwt.verify(bearerToken, process.env.EMAIL_SECRET_KEY);
     req.body.email = user.email

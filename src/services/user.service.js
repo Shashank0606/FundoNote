@@ -5,11 +5,11 @@ import Jwt from 'jsonwebtoken';
 import { sendMail } from '../utils/user.util';
 
 
-//get all users
-export const getAllUsers = async () => {
-  const data = await User.find();
-  return data;
-};
+// //get all users
+// export const getAllUsers = async () => {
+//   const data = await User.find();
+//   return data;
+// };
 
 //create new user
 export const userRegistration = async (body) => {
@@ -92,3 +92,18 @@ export const forgetPassword = async (body) => {
 };
 
 
+export const resetPassword = async (body) => {
+  try {
+    const userexist = await User.findOne({ email: body.email });
+
+    if (userexist) {
+      const salt = await bcrypt.genSalt(10);
+      body.password = await bcrypt.hash(body.password, salt);
+      const data = await User.findOneAndUpdate({ email: body.email }, { new: true });
+      return data;
+    }
+  }
+  catch (error) {
+    throw new Error(error)
+  }
+};
