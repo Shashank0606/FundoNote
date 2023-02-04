@@ -28,17 +28,19 @@ describe('User APIs Test', () => {
 
   describe('GET /users', () => {
     // it('should return empty array', (done) => {
-    it('valid user detailwill return status code', (done) => {
+    it('validuserdetailwillreturnstatuscode', (done) => {
       const user = {
+        "firstname": "Neeraj",
+        "lastname": "Yadav",
         "email": "neeraj@gmail.com",
-        "password": "Shashank@123",
+        "password": "Shashank@123"
       }
       request(app)
-        .post('/api/v1/users/login')
+        .post('/api/v1/users')
+        .send(user)
         .end((err, res) => {
-          expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
-
+          expect(res.statusCode).to.be.equal(201);
+          expect(res.body.data).to.be.an('object');
           done();
         });
     });
