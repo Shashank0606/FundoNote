@@ -1417,3 +1417,847 @@ info: ::1 - - [03/Feb/2023:16:18:42 +0000] "POST /api/v1/users/ HTTP/1.1" 500 53
 
 info: ::1 - - [03/Feb/2023:16:19:16 +0000] "POST /api/v1/users/ HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.1"
 
+info: ::ffff:127.0.0.1 - - [04/Feb/2023:02:22:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Feb 04 2023 07:52:07 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":150167},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19409763,"external":21589054,"heapTotal":130506752,"heapUsed":103458320,"rss":170143744},"pid":17684,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [04/Feb/2023:02:35:14 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Feb 04 2023 08:05:14 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":150953},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19172632,"external":21352503,"heapTotal":130768896,"heapUsed":101458520,"rss":174088192},"pid":11868,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [04/Feb/2023:02:35:56 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Sat Feb 04 2023 08:05:56 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":150995},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19198364,"external":21378235,"heapTotal":131031040,"heapUsed":101461904,"rss":174469120},"pid":548,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:41:58 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:41:59 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 202 to equal 201
+AssertionError: expected 202 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:59:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:11:59 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":201,"message":"expected 202 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117547},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19602317,"external":21782188,"heapTotal":132345856,"heapUsed":109271384,"rss":175865856},"pid":20420,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":59,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:42:26 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:42:26 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object
+AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:39)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:12:26 GMT+0530 (India Standard Time)","error":{"actual":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5lZXJhakBnbWFpbC5jb20iLCJpZCI6IjYzZTA2OTExZDdkYWUxNGVhODkyNDM3YSIsImlhdCI6MTY3NTY1MTM0Nn0.8w-40vEP9Btbh5gfgpSGKwcGMhPPQaHWPNarqxcICZo","message":"expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:39)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117575},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19204291,"external":21384162,"heapTotal":131559424,"heapUsed":104325880,"rss":174620672},"pid":20136,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:39)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:42:54 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:42:55 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 202 to equal 201
+AssertionError: expected 202 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:59:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:12:55 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":201,"message":"expected 202 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117603},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19188033,"external":21367904,"heapTotal":131297280,"heapUsed":104196008,"rss":174108672},"pid":4472,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":59,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:45:13 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:45:13 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 202 to equal 201
+AssertionError: expected 202 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:59:40)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:15:13 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":201,"message":"expected 202 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117742},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19502471,"external":21682342,"heapTotal":131043328,"heapUsed":105280616,"rss":174641152},"pid":1236,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:40)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":40,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":59,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:46:19 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:46:20 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object
+AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:39)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:16:20 GMT+0530 (India Standard Time)","error":{"actual":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5lZXJhakBnbWFpbC5jb20iLCJpZCI6IjYzZTA2OWZiNDAxNzRhMWVjYzY2NTI1MCIsImlhdCI6MTY3NTY1MTU4MH0.Kt3WITQ8CBxXtg8b9Zy5m3PbQI3NdtYhT99l0Lr5WJM","message":"expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:39)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117808},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19487158,"external":21667029,"heapTotal":131305472,"heapUsed":104660048,"rss":174555136},"pid":7884,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.…' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:39)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":39,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:49:07 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:49:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 202 to equal 201
+AssertionError: expected 202 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:59:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:19:07 GMT+0530 (India Standard Time)","error":{"actual":202,"expected":201,"message":"expected 202 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":117976},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19198418,"external":21378289,"heapTotal":131563520,"heapUsed":104194744,"rss":174321664},"pid":11900,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 202 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":59,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:51:33 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:02:51:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 08:21:33 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":118122},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19439106,"external":21618977,"heapTotal":131043328,"heapUsed":104032800,"rss":174817280},"pid":19908,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:24:01 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:25:02 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:25:24 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:41:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 10:55:24 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":127353},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18940515,"external":21119507,"heapTotal":129720320,"heapUsed":97486768,"rss":170504192},"pid":1600,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:41:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":41,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:26:05 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:26:05 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:59:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 10:56:05 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":127393},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19176291,"external":21356162,"heapTotal":131559424,"heapUsed":103060952,"rss":174407680},"pid":576,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:59:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":59,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:26:41 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:26:41 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 10:56:41 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":127429},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19179729,"external":21359600,"heapTotal":131297280,"heapUsed":104009288,"rss":173805568},"pid":1616,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:31:40 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:32:50 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:32:50 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:58:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:02:50 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:58:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":127798},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19180752,"external":21360623,"heapTotal":131297280,"heapUsed":103134128,"rss":174092288},"pid":15884,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:58:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":58,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:36:00 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:36:00 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:06:00 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":127988},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19470756,"external":21650627,"heapTotal":130781184,"heapUsed":103986168,"rss":173867008},"pid":14460,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:36:31 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:36:31 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:06:31 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128020},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19519292,"external":21699163,"heapTotal":131043328,"heapUsed":104246104,"rss":174018560},"pid":10252,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:37:02 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:37:03 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:07:03 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128051},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19519074,"external":21698945,"heapTotal":130777088,"heapUsed":104082464,"rss":174067712},"pid":16448,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:39:07 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:39:07 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:09:07 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128175},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19520117,"external":21699988,"heapTotal":131047424,"heapUsed":104410192,"rss":174690304},"pid":4328,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:40:02 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:40:02 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:10:02 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128230},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19508129,"external":21688000,"heapTotal":131309568,"heapUsed":104601040,"rss":175026176},"pid":19948,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:40:52 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:40:52 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:10:52 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128281},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19534058,"external":21713929,"heapTotal":131047424,"heapUsed":104491992,"rss":174755840},"pid":12956,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:41:14 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:41:14 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:11:14 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128303},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19507878,"external":21687749,"heapTotal":131833856,"heapUsed":104537952,"rss":175079424},"pid":4556,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:41:43 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:41:43 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:11:44 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128332},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19518891,"external":21698762,"heapTotal":131047424,"heapUsed":105080088,"rss":174641152},"pid":13860,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:42:09 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:42:09 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:12:09 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128357},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19492101,"external":21671972,"heapTotal":131047424,"heapUsed":105193968,"rss":173899776},"pid":5672,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:42:51 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:42:51 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:12:51 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128399},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19519028,"external":21698899,"heapTotal":131047424,"heapUsed":105063848,"rss":174370816},"pid":4812,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:47:48 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:47:48 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:17:48 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128697},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19557734,"external":21737605,"heapTotal":131309568,"heapUsed":105284048,"rss":174227456},"pid":13432,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:08 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:08 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:21:08 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128897},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19484166,"external":21664037,"heapTotal":130785280,"heapUsed":105486712,"rss":174125056},"pid":11680,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:28 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:28 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:21:28 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128917},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19484171,"external":21664042,"heapTotal":131309568,"heapUsed":105970776,"rss":174268416},"pid":6360,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:59 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:51:59 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:21:59 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":128947},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19506006,"external":21685877,"heapTotal":131309568,"heapUsed":104557960,"rss":174305280},"pid":12580,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:53:29 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:53:29 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected '' to be an object
+AssertionError: expected '' to be an object
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:60:37)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:23:29 GMT+0530 (India Standard Time)","error":{"actual":"","message":"expected '' to be an object","name":"AssertionError","operator":"strictEqual","showDiff":false,"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129038},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19486503,"external":21666374,"heapTotal":131575808,"heapUsed":106110712,"rss":174702592},"pid":18892,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected '' to be an object\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:60:37)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":37,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":60,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:54:41 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:54:41 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:54:41 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:54:42 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:54:42 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:50 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:50 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:50 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:51 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:55:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:16 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:16 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:16 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:05:59:17 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 500
+AssertionError: expected 404 to equal 500
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:29:18 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":500,"message":"expected 404 to equal 500","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 500\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129386},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19559924,"external":21739795,"heapTotal":131588096,"heapUsed":106468984,"rss":175017984},"pid":18748,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 404 to equal 500\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:24 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:24 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:24 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:24 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:00:25 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 202
+AssertionError: expected 404 to equal 202
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:38)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:30:25 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":202,"message":"expected 404 to equal 202","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129454},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19215585,"external":21395456,"heapTotal":132374528,"heapUsed":104376560,"rss":175562752},"pid":7432,"uid":null,"version":"v18.12.1"},"stack":"AssertionError: expected 404 to equal 202\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:38)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":38,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:39 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:39 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:39 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:39 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:40 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:01:40 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:28)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:31:40 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129528},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18729270,"external":20909141,"heapTotal":131108864,"heapUsed":101714752,"rss":174108672},"pid":16104,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:28)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":28,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:24 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:24 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:25 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:25 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:25 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:26 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:26 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:29)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:32:26 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129574},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19195993,"external":21375864,"heapTotal":132112384,"heapUsed":104694104,"rss":175534080},"pid":16592,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:29)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":29,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:48 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:48 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:48 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:48 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:02:49 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:28)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 11:32:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":129598},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18698099,"external":20877970,"heapTotal":131108864,"heapUsed":101450376,"rss":173752320},"pid":12560,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:28)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":28,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:48 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:48 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:48 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:46:50 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:28)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 12:16:50 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":132238},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19234898,"external":21414769,"heapTotal":132636672,"heapUsed":104092072,"rss":175554560},"pid":13900,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:28)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":28,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:14 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:14 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:14 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:15 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:16 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:16 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading '_id')
+TypeError: Cannot read properties of undefined (reading '_id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:29)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 12:17:16 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":132265},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18712214,"external":20892085,"heapTotal":131371008,"heapUsed":102042368,"rss":173813760},"pid":732,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading '_id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:29)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":29,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:48 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:48 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:49 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:49 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:50 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:06:47:51 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:29)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 12:17:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":132299},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18324437,"external":20500995,"heapTotal":102797312,"heapUsed":93359256,"rss":142733312},"pid":3296,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:29)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":29,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11153 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 144966 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 312217 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:56:59 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1061579 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:06:57:00 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:16 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:16 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:16 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:16 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11147 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:16 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:17 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:00:47 +0000] "POST /api/v1/users/resetPassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:07:02:29 +0000] "GET /api-docs/ HTTP/1.1" 200 3103 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:07:02:29 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:07:02:29 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:02:29 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11143 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:02:29 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:02:30 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:07:32 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:08:35 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:08:49 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:10:47 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:11:52 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:21 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:22 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:22 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:22 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:22 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:23 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:23 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:57 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:59 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:07:12:59 +0000] "GET /api/v1/notes/63d8aaab80a3194814465a98 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11139 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:39:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:48:07 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [06/Feb/2023:11:49:20 +0000] "POST /api/v1/users/forgotPassword HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:16 +0000] "POST /api/v1/users HTTP/1.1" 201 319 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:16 +0000] "POST /api/v1/users HTTP/1.1" 500 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:16 +0000] "POST /api/v1/users HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:17 +0000] "POST /api/v1/users/login HTTP/1.1" 202 241 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:17 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [06/Feb/2023:16:31:18 +0000] "POST /api/v1/note HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'id')
+TypeError: Cannot read properties of undefined (reading 'id')
+    at Test.<anonymous> (D:\Java Script\FundoNotes\tests\integration\/user.test.js:144:28)
+    at Test.assert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (D:\Java Script\FundoNotes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:627:28)
+    at Server.emit (node:events:513:28)
+    at emitCloseNT (node:net:1880:8)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21) {"date":"Mon Feb 06 2023 22:01:18 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":608},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","D:\\Java Script\\FundoNotes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=10000","tests/**/*.js"],"cwd":"D:\\Java Script\\FundoNotes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18666970,"external":20846841,"heapTotal":192933888,"heapUsed":162397592,"rss":238391296},"pid":4124,"uid":null,"version":"v18.12.1"},"stack":"TypeError: Cannot read properties of undefined (reading 'id')\n    at Test.<anonymous> (D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js:144:28)\n    at Test.assert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:627:28)\n    at Server.emit (node:events:513:28)\n    at emitCloseNT (node:net:1880:8)\n    at processTicksAndRejections (node:internal/process/task_queues:81:21)","trace":[{"column":28,"file":"D:\\Java Script\\FundoNotes\\tests\\integration\\/user.test.js","function":null,"line":144,"method":null,"native":false},{"column":6,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"D:\\Java Script\\FundoNotes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":627,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":513,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1880,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":81,"method":null,"native":false}]}
+info: ::1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs HTTP/1.1" 301 183 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:32 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11120 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11118 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:11:56 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:55 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:55 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:55 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:55 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:55 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11177 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:17:56 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:18:20 +0000] "POST /api/v1/users/login HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:18:53 +0000] "POST /api/v1/users/login HTTP/1.1" 202 248 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:20:05 +0000] "POST /api/v1/users/forgetPass HTTP/1.1" 202 614 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:21:32 +0000] "GET /eyJhbGciOiJIUzI1NiJ9.U2hhc2hhbms2MDZAZ21haWwuY29t.oZsjLniGvlIuRVwNth1pLHXcYoUejCkw0YM8hsD2WSE HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:21:32 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:22:08 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:22:31 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:22:39 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:25:08 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:25:21 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:25:23 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:25:30 +0000] "GET /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:27:53 +0000] "GET /api/v1/notes/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IlNoYXNoYW5rNjA2QGdtYWlsLmNvbSIsImlkIjoiNjNkNzU4NGMxZDdhNzcxOTcwNzUwNmZjIiwiaWF0IjoxNjc1MTkwNjc0fQ.jJ6qiHH_bN6dxvgooGZFVmIfOK8PK_f9AlGDD29xe6A HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:30:17 +0000] "GET /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:39:39 +0000] "GET /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:40:56 +0000] "GET /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:40:58 +0000] "GET /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:43:19 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:43:23 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:43:30 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:47:19 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:47:20 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:47:21 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:47:21 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:47:22 +0000] "DELETE /api/v1/notes/63d969cd3b8e68274ccd1459 HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:04:53:11 +0000] "PUT /api/v1/notes/63d969cd3b8e68274ccd1459/trash HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:25 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:25 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:25 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:25 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11117 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:25 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:03:26 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:04:01 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:12 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:12 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:12 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:12 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10428 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:12 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:13 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 9666 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:49 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:07:51 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:08:46 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:08:50 +0000] "POST /api/v1/:token/reset HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Feb/2023:05:09:28 +0000] "POST /api/v1/notes HTTP/1.1" 500 55 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36"
+

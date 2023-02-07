@@ -37,7 +37,7 @@ export const getAll = async (userId) => {
 
         // console.log("test", userId);
         // const data = await Note.find();
-        const data = await Note.find({ userId: userId, trash: false, archive: false });
+        const data = await Note.find({ userId: userId });
         return data
     }
     catch (err) {
@@ -45,11 +45,10 @@ export const getAll = async (userId) => {
     }
 };
 
-
 // get note by id
 export const getById = async (_id, userId) => {
     try {
-        const data = await Note.findById({ _id, trash: false, archive: false, userId: userId });
+        const data = await Note.findById({ _id, userId: userId });
         return data;
     } catch (err) {
         throw new Error(err)
@@ -59,7 +58,7 @@ export const getById = async (_id, userId) => {
 // delete note
 export const deleteNote = async (_id, userId) => {
     try {
-        await Note.findByIdAndDelete({ _id, trash: false, archive: false, userId: userId });
+        await Note.findByIdAndDelete({ _id, userId: userId });
         return "";
     } catch (err) {
         throw new Error(err)
