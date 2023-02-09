@@ -1,7 +1,7 @@
 import id from '@hapi/joi/lib/base';
 import { resolveConfig } from 'prettier';
 import Note from '../models/notes.model';
-
+import { client } from '../config/redis';
 
 // create note
 export const createNote = async (body) => {
@@ -34,10 +34,8 @@ export const updateNote = async (_id, body) => {
 // Get all Note
 export const getAll = async (userId) => {
     try {
-
-        // console.log("test", userId);
-        // const data = await Note.find();
         const data = await Note.find({ userId: userId });
+        await client.set('getalldata', JSON.stringify(data));
         return data
     }
     catch (err) {

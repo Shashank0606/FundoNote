@@ -38,7 +38,7 @@ export const getAll = async (req, res, next) => {
         res.status(HttpStatus.ACCEPTED).json({
             code: HttpStatus.ACCEPTED,
             data: data,
-            message: "OK"
+            message: "Note fetched succesfully"
         })
     } catch (error) {
         next(error)

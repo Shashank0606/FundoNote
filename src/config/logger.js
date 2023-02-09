@@ -30,6 +30,11 @@ const logger = winston.createLogger({
       json: false,
       handleExceptions: true
     })
+    // new winston.transports.Console({
+    //   level: 'info',
+    //   format: format.combine(format.timestamp(), format.simple()),
+    //   filename: 'sam/sam.log'
+    // })
   ]
 });
 

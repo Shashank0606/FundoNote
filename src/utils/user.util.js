@@ -44,6 +44,6 @@ export async function sendMail(token, email) {
     }
 }
 
-sendMail()
-    .then((result) => console.log('Email sent...', result))
-    .catch((error) => console.log(error.message));
+// sendMail()
+//     .then((result) => console.log('Email sent...', result))
+//     .catch((error) => console.log(error.message));
