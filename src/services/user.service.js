@@ -3,6 +3,7 @@ import bcrypt from 'bcrypt';
 import Jwt from 'jsonwebtoken';
 // import sendMail from '../utils/user.util'
 import { sendMail } from '../utils/user.util';
+import * as mq from '../utils/rabbitmq'
 
 
 // //get all users
@@ -18,6 +19,8 @@ export const userRegistration = async (body) => {
     const salt = await bcrypt.genSalt(10);
     body.password = await bcrypt.hash(body.password, salt);
     const data = await User.create(body);
+    const dataRabbit = JSON.stringify(data);
+    mq.producer('receive', dataRabbit);
     return data;
   }
   else {

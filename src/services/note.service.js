@@ -35,7 +35,8 @@ export const updateNote = async (_id, body) => {
 export const getAll = async (userId) => {
     try {
         const data = await Note.find({ userId: userId });
-        await client.set('getalldata', JSON.stringify(data));
+        await client.set('getall', JSON.stringify(data));
+        // client.flushAll();
         return data
     }
     catch (err) {
@@ -47,6 +48,8 @@ export const getAll = async (userId) => {
 export const getById = async (_id, userId) => {
     try {
         const data = await Note.findById({ _id, userId: userId });
+        // await client.set('getdata', JSON.stringify(data));
+        // client.flushAll();
         return data;
     } catch (err) {
         throw new Error(err)

@@ -1,8 +1,8 @@
 import { client } from "../config/redis";
 import logger from "../config/logger";
 
-export const redisCheck = async (req, res, next) => {
-    const data = await client.get('getalldata');
+export const allNote = async (req, res, next) => {
+    const data = await client.get('getall');
 
     if (data != null) {
         // logger.info(`Users Detailsredis get successfully`)
@@ -15,3 +15,18 @@ export const redisCheck = async (req, res, next) => {
         next();
     }
 }
+
+// export const singlenote = async (req, res, next) => {
+//     const data = await client.get('getdata');
+
+//     if (data != null) {
+//         // logger.info(`Users Detailsredis get successfully`)
+//         res.status(200).json({
+//             code: 200,
+//             data: JSON.parse(data),
+//             message: 'note fetch sucessfull from redis'
+//         });
+//     } else {
+//         next();
+//     }
+// }
